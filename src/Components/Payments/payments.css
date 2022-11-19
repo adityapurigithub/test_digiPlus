@@ -1,0 +1,30 @@
+.payment-wrapper .body {
+  display: flex;
+}
+.payment-wrapper .body .content {
+}
+
+.payment-wrapper .body .content h4 {
+  color: orangered;
+}
+.col1 button {
+  text-align: left;
+  padding: 12px;
+  padding-left: 15px;
+  margin: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.col2 {
+  width: 40%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 13px;
+}
+@media (max-width: 600px) {
+  .payment-wrapper .body {
+    flex-direction: column;
+  }
+}
